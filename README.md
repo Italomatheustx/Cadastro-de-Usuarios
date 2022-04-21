@@ -1,3 +1,7 @@
+nesse projeto foi feito cadastro de usuários, podendo cadastrar novos, editar e excluir. também criei uma página para utilizar Data Binding e outra página para Pipes.
+e criei a API de lista de usuários.
+
+
 # CrudAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
