@@ -1,0 +1,16 @@
+<h1 [class.textred]="textRed" [style.font-size]="fontSize">{{ retornaNome() }}</h1>
+
+<img [src]="imageUrl" [alt]="imageDesc" [style.width.px]="widthImg" (click)="clicou()">
+
+<button [attr.arial-Label]="buttonText" [style.backgroundColor]="bgColor">{{ buttonText }}</button>
+
+<input #input (keyup)="clicou2(input.value)">
+
+{{ input.value }}
+
+<!-- 
+<input type="text" class="form-control" [(ngModel)]="texttInput">
+<p class="text-default"> {{ texttInput }}</p>
+
+<app-life-cycle [number]="number" *ngIf="!destroy"></app-life-cycle>
+  -->
